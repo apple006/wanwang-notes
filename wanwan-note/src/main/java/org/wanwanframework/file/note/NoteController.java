@@ -7,11 +7,11 @@ import org.wanwanframwork.file.Log;
  * @author coco
  *
  */
-public class noteController {
+public class NoteController {
 
 	private String content;
 	
-	public noteController() {
+	public NoteController() {
 		
 	}
 	
@@ -20,7 +20,7 @@ public class noteController {
 	}
 	
 	public static void main(String[] args) {
-		noteController controller = new noteController();
+		NoteController controller = new NoteController();
 		controller.init();
 	}
 }
